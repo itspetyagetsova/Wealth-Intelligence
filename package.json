@@ -1,0 +1,11 @@
+{
+  "name": "wealth-intelligence",
+  "version": "1.0.0",
+  "description": "Prompt builder with 9 wealth frameworks — installable, offline-capable web app.",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve@14 . -l 3000",
+    "dev": "npx --yes serve@14 . -l 3000"
+  },
+  "keywords": ["prompt-builder", "wealth", "pwa", "claude"]
+}
