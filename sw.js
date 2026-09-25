@@ -1,17 +1,17 @@
 /* Service worker — makes the app load offline after the first visit.
  * Bump CACHE when you change any file so users get the new version.
  */
-const CACHE = 'wealth-iq-v1';
+const CACHE = 'wealth-iq-v2';
 const ASSETS = [
   './',
   './index.html',
-  './css/styles.css',
-  './js/frameworks.js',
-  './js/app.js',
+  './styles.css',
+  './frameworks.js',
+  './app.js',
   './manifest.webmanifest',
-  './icons/icon.svg',
-  './icons/icon-192.png',
-  './icons/icon-512.png'
+  './icon.svg',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', event => {

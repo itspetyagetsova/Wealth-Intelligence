@@ -31,12 +31,12 @@ It's plain HTML, CSS and JavaScript with no build step and no dependencies. It r
 ```
 wealth-intelligence/
 ├── index.html             Page layout
-├── css/styles.css         All styling
-├── js/frameworks.js       The 9 frameworks (edit this to add or change them)
-├── js/app.js              App behavior
+├── styles.css             All styling
+├── frameworks.js          The 9 frameworks (edit this to add or change them)
+├── app.js                 App behavior
 ├── manifest.webmanifest   App name, colors and icons for installing
 ├── sw.js                  Offline support
-├── icons/                 App icons
+├── icon*.png, icon.svg    App icons
 └── package.json           Local preview command (optional)
 ```
 
@@ -91,9 +91,9 @@ Both redeploy on their own every time you change a file on GitHub.
 
 ## Editing
 
-- **Add or change a framework:** open `js/frameworks.js`. The comment at the top explains every field. Numbers on the cards follow the order of the list, so you never have to renumber anything.
-- **Change colors:** edit the variables at the top of `css/styles.css`. `--accent` is the yellow.
-- **After changing files:** in `sw.js`, raise the version in `const CACHE = 'wealth-iq-v1'` (for example to `v2`) so installed copies pick up the update.
+- **Add or change a framework:** open `frameworks.js`. The comment at the top explains every field. Numbers on the cards follow the order of the list, so you never have to renumber anything.
+- **Change colors:** edit the variables at the top of `styles.css`. `--accent` is the yellow.
+- **After changing files:** in `sw.js`, raise the version in `const CACHE = 'wealth-iq-v2'` (for example to `v3`) so installed copies pick up the update.
 
 ## Preview on your computer (optional)
 
